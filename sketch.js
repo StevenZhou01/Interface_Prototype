@@ -120,6 +120,10 @@ function draw() {
   ) {
     c = "red";
     C = "black";
+    fill(255);
+    stroke(0);
+    rect(width / 3, height / 2 + 125, 300, 200);
+    
     textSize(12);
     noStroke();
     fill(20);
@@ -134,6 +138,10 @@ function draw() {
   ) {
     C = "red";
     c = "black";
+    fill(255);
+    stroke(0);
+    rect(width / 3, height / 2 + 125, 300, 200);
+    
     textSize(12);
     noStroke();
     fill(20);
